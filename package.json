@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot with no library",
+  "main": "src/main/discord-client/main.js",
+  "author": "Shushi (atsushithesushi@gmail.com)",
+  "license": "GNU",
+  "private": true,
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "eslint": "^8.36.0",
+    "eslint-config-sushi": "^1.0.5"
+  },
+  "dependencies": {
+    "undici": "^5.21.0",
+    "ws": "^8.13.0"
+  },
+  "type": "module"
+}
